@@ -12,7 +12,7 @@ namespace MiBiblioteca.Controllers
         // GET: Movies/Random
         public ActionResult Random()
         {
-            var book = new Book() { Name = "Quijote"};
+            var book = new Book() { Name = "Book test"};
             
             return View(book);
         }
