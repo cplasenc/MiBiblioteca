@@ -10,7 +10,7 @@ namespace MiBiblioteca.Controllers
     public class BooksController : Controller
     {
         // GET: Movies/Random
-        public ActionResult Random()
+        public ViewResult Random()
         {
             var book = new Book() { Name = "Book test"};
             
