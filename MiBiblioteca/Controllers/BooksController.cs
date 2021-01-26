@@ -17,9 +17,10 @@ namespace MiBiblioteca.Controllers
             return View(book);
         }
 
+        [Route("books/released/{year}/{month}/{month:regex(\\d{4})}")]
         public ActionResult ByReleaseDate(int year, int month)
         {
-            return Content(year + "/" + month)
+            return Content(year + "/" + month);
         }
         
     }
