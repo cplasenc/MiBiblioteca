@@ -16,5 +16,11 @@ namespace MiBiblioteca.Controllers
             
             return View(book);
         }
+
+        public ActionResult ByReleaseDate(int year, int month)
+        {
+            return Content(year + "/" + month)
+        }
+        
     }
 }
