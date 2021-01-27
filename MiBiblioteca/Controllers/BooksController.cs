@@ -14,7 +14,6 @@ namespace MiBiblioteca.Controllers
         public ActionResult Random()
         {
             var book = new Book() { Name = "Book test"};
-
             var customers = new List<Customer>
            {
                new Customer { Name = "Customer 1" },
